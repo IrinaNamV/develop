@@ -11,42 +11,58 @@
 <main>
 <header> 
     <div class="container">
-        <h1>[Шапка страницы]</h1>
+        <h1>Шапка страницы</h1>
 </div>
 </header>
-<main>
-    <div>
-        <div class="main">
-            <div class="part 1">
-                <h2>[Основная часть]</h2>
-            </div>  
-            <div class="part 2">
-                <h2>[Еще 1]</h2>
-                <h2>[Еще 2]</h2>
-           </div>
-            <div class="part 3">
-                <h2>[Еще 3]</h2>
+<main class="container">
+    <div class="row">
+        <article class="main_part">
+            <h2>Основная часть</h2>
+            <div class="inline">
+                <div class="row">
+                <div class="part" style="padding-bottom:10px;">
+                    <h2>Еще 1</h2>
+                </div>
+                </div>
+                <div class="row">
+                    <div class="part" style="padding-bottom:10px;">
+                        <h2>Еще 2</h2>
+                    </div>
+                </div>    
+                    <div class="row">
+                        <div class="part_3" style="padding-bottom:10px;">
+                            <h2>Еще 3</h2>
+                        </div>
+                    </div>
             </div>
-        </div>
-        <div class="side">
-            <h2>[Боковая область]</h2>
-        </div>
+            </div>
+        </article>
+        <aside class="aside_part">
+            <h2>Боковая часть</h2>
+        </aside>
     </div>
 </main>    
-<footer>
-    <div>
-        <div class="footer section">
-            <h2>[секция футера 1]</h2>
+<footer class="container">
+    <div class="row">
+        <div class="footer_section">
+            <h2>секция футера 1</h2>
         </div>
-        <div class="footer section">
-            <h2>[секция футера 2]</h2>
+    </div>
+    <div class="row">
+        <div class="footer_section">
+            <h2>секция футера 2</h2>
         </div>
-        <div class="footer section">
-            <h2>[секция футера 3]</h2>
+    </div>
+    <div class="row">
+        <div class="footer_section">
+            <h2>секция футера 3</h2>
         </div>
-        <div class="footer section">
-            <h2>[секция футера 4]</h2>
+    </div>
+    <div class="row">
+        <div class="footer_section">
+            <h2>секция футера 4</h2>
         </div>
+    </div>
     </div>
 </footer>
 </body>
