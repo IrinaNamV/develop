@@ -8,7 +8,7 @@ header {
 .container {
     width: 100%;
     display: flex;
-
+    background-color: bisque;
 }
 
 .row {
@@ -29,31 +29,44 @@ header {
     width: 40%;
 }
 
-.inline {
+.inlinecontainer1 {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-grow: auto;
+
+}
+
+.part1 {
+    width: 525px;
+    height: 100px;
+    background-color: rgb(243, 170, 75);
+    margin: 20px;
+}
+
+.inlinecontainer2 {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: auto;
+}
+
+.part2 {
     width: 100%;
-}
-
-.part {
-    width: 650px;
     height: 100px;
-
-    border: 4px double black;
-    text-align: center;
-    background-color: orange;
+    background-color: rgb(243, 170, 75);
+    margin: 20px;
 }
 
-.part_3 {
-    width: 1300px;
-    height: 100px;
-    text-align: center;
-    background-color: orange;
-}
-
-footer {
+.container3 {
     display: flex;
+    justify-content: space-around;
     flex-grow: auto;
     background-color: gray;
+}
+
+.footer_section {
+    width: 300px;
+    height: 200 px;
+    background-color: lightgray;
+    text-align: center;
+    margin: 20px;
 }
