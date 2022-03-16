@@ -232,14 +232,27 @@
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px 27px;
+    grid-template-rows: 100px 27px 27px 27px;
     gap: 1rem;
     align-items: stretch;
-    text-align: center;
+    text-align: left;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .name {
     font-size: 26px;
     font-weight: 600;
+
+}
+
+.onecolumn {
+    grid-row: 2/5;
+    grid-column: 1/2;
+    color: #282A30CC;
+}
+
+.textcolor {
+    color: #282A30CC;
 
 }
