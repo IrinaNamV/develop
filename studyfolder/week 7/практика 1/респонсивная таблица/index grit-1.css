@@ -1,0 +1,86 @@
+.gitcontainer {
+    border: 2px solid green;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+    grid-template-areas:
+        'hd hd hd hd'
+        'mp mp ap ap'
+        'p1 p2 ap ap'
+        'p3 p3 ap ap'
+        'fs1 fs2 fs3 fs4';
+    font-size: 2em;
+
+}
+
+.header {
+    background-color: lightgray;
+    grid-area: hd;
+    text-align: center;
+
+}
+
+.main_part {
+    background-color: bisque;
+    grid-area: mp;
+    text-align: center;
+
+}
+
+.part1 {
+    background-color: orange;
+    grid-area: p1;
+    text-align: center;
+    border: 1px black;
+}
+
+.part2 {
+    background-color: orange;
+    grid-area: p2;
+    text-align: center;
+    border: 1px black;
+}
+
+.part3 {
+    background-color: orange;
+    grid-area: p3;
+    text-align: center;
+    border: 1px black;
+}
+
+.aside_part {
+    background-color: lightgreen;
+    grid-area: ap;
+    text-align: center;
+    border: 1px black;
+}
+
+.footer_section1 {
+    background-color: lightgrey;
+    grid-area: fs1;
+    text-align: center;
+    border: 1px black;
+}
+
+.footer_section2 {
+    background-color: lightgrey;
+    grid-area: fs2;
+    text-align: center;
+    border: 1px black;
+
+}
+
+.footer_section3 {
+    background-color: lightgrey;
+    grid-area: fs3;
+    text-align: center;
+    border: 1px black;
+}
+
+.footer_section4 {
+    background-color: lightgrey;
+    grid-area: fs4;
+    text-align: center;
+    border: 1px black;
+}
